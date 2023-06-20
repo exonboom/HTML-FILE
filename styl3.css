@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url('https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    background-color:brown;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    font-weight: 900;
+    width: fit-content;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+    border: 1px solid white;
+}
+header{
+    padding:15px 0 ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+}
+nav ul{
+    font-style: italic;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    font-weight: 500;
+}
+nav ul li img{
+    width: 100px;
+}
+nav ul li:hover{
+    text-decoration: underline gold;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 30px   ;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.left-main h1{
+    padding: 60px 60px;
+    font-weight: 800;
+    font-size: 110px;
+    justify-content: space-between;
+    color: gold;
+    font-style: italic;
+    
+}
+.left-main-btn{
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+footer{
+    font-weight: 500;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 150px;
+}

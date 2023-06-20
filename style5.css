@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    height: 91.5vh;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+a{
+    color:white;
+    text-decoration: solid;
+    font-size: larger;
+
+}
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+
+    
+}
+button{
+    background-color:rgb(165, 42, 128);
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    border:1px solid white;
+    border-radius: 15px;
+    font-weight:900;
+    width: fit-content;
+    border: none;
+}
+button:hover{
+    
+    background-color:white;
+    color:rgb(165, 42, 128);
+
+}
+header{
+    padding:15px 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 83px;
+    height: 94px;
+}
+.grow-list {
+    flex-grow: 1;
+  }
+nav ul{
+    display:flex;
+    gap: 40px;
+    align-items:center;
+    line-height: 24px;
+    margin-left: 64px;
+    font-weight: 900;
+}
+
+.search-field{
+    display: flex;
+    align-items: center;
+}
+main{
+    align-items: center;
+    
+}
+
+.leftmain h1{
+    margin: 0 auto;
+    padding-top: 172px;
+    padding: 60px 60px;
+    font-weight: 800;
+    font-size: 80px;
+    color:whitesmoke;
+}
+.leftmain p{
+
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight:500;
+    color:whitesmoke;
+    
+}
+.leftmain-btn{
+    margin-top: 64px;
+    padding: 14px 22px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+
+

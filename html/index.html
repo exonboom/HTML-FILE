@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psedu class</title>
+    <style>
+        .hello:hover{
+            display: inline-block;
+            background-color: black;
+            color:white;
+            border: 2px solid black;
+
+        }
+        /*input:focus{
+            font-size: 25px;
+            color:blueviolet;
+            background-color: black;*/
+
+
+        
+        /*a:first-child{
+            color: aquamarine;
+        }*/
+        a:nth-child(2n+1){
+            background-color:pink;
+        }
+        .Lorem::after{
+            content:"street coding 7";
+            color: aqua;
+        }
+        .Lorem::selection{
+            color: black;
+            background:red;
+        }
+        ::marker{
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p class="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, officiis?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam voluptas quibusdam, cumque ullam asperiores repellendus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et odit voluptates obcaecati dolor laudantium nobis incidunt facere, sint tempore sapiente.
+        <hr/>
+    <input type="text">
+    <hr/>
+    <nav>
+    <a href="http://www.google.com/" target="_blank">google</a>
+    <a href="http://www.google.com/">google</a>
+    <a href="http://www.google.com/">google</a>
+    <a href="http://www.google.com/">google</a>
+    <a href="http://www.google.com/">google</a>
+
+    </nav>
+
+    <!-- psedou element -->
+    <p  class="Lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique, praesentium aut ut cupiditate ratione optio a excepturi unde beatae voluptatem illo, vel porro officiis perferendis consectetur, iure maxime? Quod ad dolor neque quam ex molestias accusamus veniam in, consequuntur sit esse sed dicta commodi eligendi nam omnis illum temporibus repellendus praesentium fuga architecto sunt quos. Soluta deserunt similique adipisci saepe, cupiditate debitis dignissimos inventore pariatur, amet ab perferendis quo totam sit suscipit illum. Porro sint maxime ipsam esse illo, voluptatibus enim corporis hic ab magni est ratione libero. Incidunt voluptates saepe necessitatibus dolorum veritatis hic corrupti, illum fugiat esse!</p>
+    <hr/>
+    <ul>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ul>
+        
+    
+    
+</body>
+</html>

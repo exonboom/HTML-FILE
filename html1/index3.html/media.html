@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        div{
+            text-align: center;
+            font-size: x-large;
+        }
+        div::after{
+            content: 'welcome to the demo';
+        }
+        /*@media (min-width:900px){
+            body{
+                background-color: aquamarine;
+            }
+            div::after{
+                content:'Woah  we are responsive'
+            }
+        }
+        @media (min-width:1000px){
+            body{
+                background-color:greenyellow;
+            }
+            div::after{
+                content:'even bigger screen '
+            }
+        }
+        @media(max-width:400px){
+            body{
+                background-color:violet;
+            
+            }
+            div::after{
+                content: small screen;
+            }
+        }
+            
+        }*/
+    @media(max-width:400px){
+        body{
+            background-color: purple;
+        }
+        div::after{
+            content:'hello world';
+        }
+    }
+    @media(min-width:400px) and (max-width:768px){
+        body{
+            background-color:aquamarine;
+        }
+        div::after{
+            content:'medium screen  ';
+        }
+    }
+    @media(width < @media (min-width:900px){
+            body{
+                background-color: aquamarine;
+            }
+            div::after{
+                content:'Woah  we are responsive'
+            }
+        }  @media (min-width:900px){
+            body{
+                background-color: aquamarine;
+            }
+            div::after{
+                content:'Woah  we are responsive'
+            }
+        }1000px) @media (min-width:900px){
+            body{
+                background-color: aquamarine;
+            }
+            div::aft
+        
+
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
